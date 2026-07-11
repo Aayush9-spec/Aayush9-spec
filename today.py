@@ -429,7 +429,7 @@ if __name__ == '__main__':
     formatter('account data', user_time)
 
     # TODO: replace with your own birthday, e.g. datetime.datetime(1999, 12, 31)
-    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2000, 1, 1))
+    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2005, 6, 3))
     formatter('age calculation', age_time)
 
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
