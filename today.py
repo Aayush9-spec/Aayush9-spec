@@ -428,7 +428,7 @@ if __name__ == '__main__':
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
 
-    # TODO: replace with your own birthday, e.g. datetime.datetime(1999, 12, 31)
+    # Aayush's birthday
     age_data, age_time = perf_counter(daily_readme, datetime.datetime(2005, 6, 3))
     formatter('age calculation', age_time)
 
